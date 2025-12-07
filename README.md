@@ -134,7 +134,7 @@ Health check endpoint.
 ## Project Structure
 
 ```
-biosync-backend/
+Smart-Services-AI/
 ├── app/
 │   ├── main.py
 │   ├── core/
