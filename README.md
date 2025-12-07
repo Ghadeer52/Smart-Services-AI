@@ -1,4 +1,4 @@
-# 🧠 BioSync — Smart Government Services Recommendation Engine
+# BioSync — Smart Government Services Recommendation Engine
 
 AI-powered backend engine that prioritizes government services using multi-factor scoring (urgency, seasonality, importance, behavior) – built with FastAPI and Python
 
@@ -6,7 +6,7 @@ AI-powered backend engine that prioritizes government services using multi-facto
 
 ---
 
-## 🚀 Overview
+## Overview
 
 BioSync is a backend recommendation engine that analyzes government services and identifies which actions users should prioritize first.
 
@@ -18,7 +18,7 @@ BioSync fixes that by turning information into **actionable intelligence**.
 
 ---
 
-## 🎯 What BioSync Does
+## What BioSync Does
 
 ✅ Calculates a priority score for each service  
 ✅ Explains why the service is important  
@@ -28,7 +28,7 @@ BioSync fixes that by turning information into **actionable intelligence**.
 
 ---
 
-## 🧮 Recommendation Logic
+## Recommendation Logic
 
 BioSync uses a **rule-based AI scoring system**.
 
@@ -42,23 +42,23 @@ Final Score =
 
 ---
 
-## 📊 How Scores Are Computed
+## How Scores Are Computed
 
-### 1️⃣ Urgency
+### Urgency
 Higher score for fewer days remaining.
 
-### 2️⃣ Seasonality
+### Seasonality
 Services in peak seasons (e.g., travel) receive additional weight.
 
-### 3️⃣ Category Importance
+### Category Importance
 Critical services (identity, travel) are ranked higher.
 
-### 4️⃣ User Activity
+### User Activity
 Active users receive increased priority weighting.
 
 ---
 
-## 🚦 Priority Levels
+## Priority Levels
 
 | Score Range | Priority |
 |--------------|----------|
@@ -69,7 +69,7 @@ Active users receive increased priority weighting.
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |--------|------------|
@@ -82,9 +82,9 @@ Active users receive increased priority weighting.
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
-### ✅ POST `/api/recommendations`
+### POST `/api/recommendations`
 
 Returns ranked services.
 
@@ -126,12 +126,12 @@ Returns ranked services.
 }
 ```
 
-### ✅ GET `/api/health`
+### GET `/api/health`
 Health check endpoint.
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 biosync-backend/
@@ -153,7 +153,7 @@ biosync-backend/
 
 ---
 
-## 🧪 Run Tests
+## Run Tests
 
 ```
 python test_scoring.py
@@ -162,7 +162,7 @@ python test_recommender.py
 
 ---
 
-## ▶️ Run Backend Server
+## Run Backend Server
 
 ### Step 1: Create virtual environment
 ```
@@ -199,7 +199,7 @@ http://localhost:8000/docs
 
 ---
 
-## 🔮 Future Plans
+## Future Plans
 
 - PostgreSQL integration  
 - Machine learning model  
@@ -220,7 +220,7 @@ Backend & AI Engineer
 
 ---
 
-## ⚠️ Note
+## Note
 
 This repository reflects **only my individual work**.  
 There are no team contributions.
