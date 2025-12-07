@@ -1,0 +1,95 @@
+[
+  {
+    "id": 1,
+    "name": "Reem AlHarbi",
+    "national_id": "1098765432",
+    "city": "Riyadh",
+    "activity_level": "high",
+    "phone": "+966500000001",
+    "last_login": "2025-01-18T09:32:00Z",
+    "services": [
+      {
+        "service_id": 101,
+        "name": "Passport Renewal",
+        "category": "travel",
+        "expiry_date": "2026-01-25",
+        "days_left": 28,
+        "usage_count": 4,
+        "category_importance": 0.8,
+        "seasonality": "in_season"
+      },
+      {
+        "service_id": 102,
+        "name": "Vehicle Inspection",
+        "category": "vehicle",
+        "expiry_date": "2026-03-14",
+        "days_left": 72,
+        "usage_count": 2,
+        "category_importance": 0.5,
+        "seasonality": "out_of_season"
+      },
+      {
+        "service_id": 103,
+        "name": "National ID Renewal",
+        "category": "identity",
+        "expiry_date": "2026-06-09",
+        "days_left": 150,
+        "usage_count": 1,
+        "category_importance": 0.3,
+        "seasonality": "out_of_season"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Mariam AlSudairi",
+    "national_id": "1087654321",
+    "city": "Jeddah",
+    "activity_level": "medium",
+    "phone": "+966500000002",
+    "last_login": "2025-01-15T14:20:00Z",
+    "services": [
+      {
+        "service_id": 201,
+        "name": "Driving License Renewal",
+        "category": "driving_license",
+        "expiry_date": "2026-01-10",
+        "days_left": 13,
+        "usage_count": 2,
+        "category_importance": 0.85,
+        "seasonality": "out_of_season"
+      },
+      {
+        "service_id": 202,
+        "name": "Vehicle Registration",
+        "category": "vehicle",
+        "expiry_date": "2026-02-20",
+        "days_left": 54,
+        "usage_count": 1,
+        "category_importance": 0.75,
+        "seasonality": "in_season"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Ahmed AlGhamdi",
+    "national_id": "1076543210",
+    "city": "Dammam",
+    "activity_level": "low",
+    "phone": "+966500000003",
+    "last_login": "2025-01-10T08:15:00Z",
+    "services": [
+      {
+        "service_id": 301,
+        "name": "Passport Renewal",
+        "category": "passport",
+        "expiry_date": "2026-07-01",
+        "days_left": 175,
+        "usage_count": 1,
+        "category_importance": 0.9,
+        "seasonality": "out_of_season"
+      }
+    ]
+  }
+]
